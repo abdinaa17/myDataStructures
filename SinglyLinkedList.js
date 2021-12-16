@@ -6,6 +6,9 @@ class Node {
     }
 }
 
+
+// Creating a singly linked list and then a push method. 
+
 class SinglyLinkedList {
   constructor() {
     this.head = null;
