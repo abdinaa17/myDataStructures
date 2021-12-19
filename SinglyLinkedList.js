@@ -13,7 +13,7 @@ class SinglyLinkedList {
   constructor() {
     this.head = null;
     this.tail = null; 
-    this.size = 0
+    this.length = 0
   }
 
   push(val) {
@@ -25,7 +25,7 @@ class SinglyLinkedList {
       this.tail.next = newNode;
       this.tail = newNode
     }
-    this.size++
+    this.length++
     return this
   }
 }
