@@ -28,6 +28,16 @@ class SinglyLinkedList {
     this.length++
     return this
   }
+    
+    // A method to traverse through the list and print the output
+    
+     traverse() {
+        let current = this.head;
+        while(current) {
+            console.log(current.val)
+            current = current.next
+        }
+    }
 }
 
 const list = new SinglyLinkedList()
